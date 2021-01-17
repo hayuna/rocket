@@ -1,0 +1,48 @@
+@import "./index.scss";
+
+
+nav{
+    transform: 0;
+    left: 0;
+    background-color: black;
+    border-bottom: 3px solid white;
+    z-index: 99999;
+    
+
+    h1{
+        font-size: $FontSizeOfHeaderOne;
+        color: white;
+        display: block;
+        text-align: center;
+        font-weight: 600;
+        margin: 0;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    ul{
+        margin-bottom: 0;
+
+        li {
+            list-style-type: none;
+    
+            a{
+                color: white;
+                font-size: $FontSizeOfLinks;
+                font-weight: 600;
+
+                
+                
+            }
+
+            .active{
+                color: blue;
+            }
+        }
+    }
+    
+}
+
+

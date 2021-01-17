@@ -1,0 +1,106 @@
+main {
+    width: 100%;
+
+    overflow: hidden;
+    padding-top: 6vh;
+    
+    article:nth-of-type(2){
+        background: linear-gradient(166deg, rgba(0,0,0,1) 50%, rgba(77,77,77,1) 90%, rgba(138,138,138,1) 100%);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+        padding: 0 5%;
+        
+      
+        .description {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 80%;
+            color: white;
+            height: 90%;
+
+            ul {
+                display: block;
+                width: 50%;
+
+                li{
+                    font-size: 2.5em;
+                }
+            }
+
+           
+        }
+    }
+
+    article:nth-of-type(3){
+      position: relative;
+      background-color: black;
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+
+        .engine{
+            position: absolute;
+            top: 50%;
+            left: 5%;
+            width: 40%;
+            transform: translateY(-50%);
+            color: white;
+
+            h2{
+                font-size:4em;
+            }
+
+            .properties{
+                font-size: 1.5em;
+                margin-top: 15%;
+
+                li{
+                    display: block;
+                    width: 100%;
+                    border-bottom: 1px solid white;
+                    list-style-type: none;
+                    line-height: 2em;
+                }
+            }
+        }
+    
+    }
+    
+    article {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+
+
+        .text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction:column;
+            // top: 50%;
+            // transform: translateY(-25%);
+            color: white;
+            width: 100%;
+            height: 85vh;
+
+            font-weight: bolder;
+
+            h2{
+                font-size: 5em
+            }
+
+            p{
+                font-size: 1.5em;
+            }
+        }
+        
+    }
+    
+    
+}
+
